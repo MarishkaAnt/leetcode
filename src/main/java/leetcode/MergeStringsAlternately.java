@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * 1768. Merge Strings Alternately
  */
