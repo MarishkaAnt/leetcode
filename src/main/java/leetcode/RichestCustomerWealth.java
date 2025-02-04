@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * 1672. Richest Customer Wealth
  */
