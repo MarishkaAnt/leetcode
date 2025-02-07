@@ -1,11 +1,11 @@
 package yandex;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+
 /*
 Example 1:
 
@@ -26,7 +26,7 @@ class GenerateParenthesesSequenceTest {
         //when
         List<String> actual = GenerateParenthesesSequence.generateParenthesis(n);
         //then
-        Assertions.assertThat(actual).isEqualTo(expected);
+        assertThat(actual).isEqualTo(expected);
     }
     @Test
     void generateParenthesis_case2() {
@@ -36,7 +36,7 @@ class GenerateParenthesesSequenceTest {
         //when
         List<String> actual = GenerateParenthesesSequence.generateParenthesis(n);
         //then
-        Assertions.assertThat(actual).isEqualTo(expected);
+        assertThat(actual).isEqualTo(expected);
     }
     @Test
     void generateParenthesis_case3() {
@@ -46,6 +46,6 @@ class GenerateParenthesesSequenceTest {
         //when
         List<String> actual = GenerateParenthesesSequence.generateParenthesis(n);
         //then
-        Assertions.assertThat(actual).isEqualTo(expected);
+        assertThat(actual).isEqualTo(expected);
     }
 }
